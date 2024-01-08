@@ -35,6 +35,12 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>33.0.0-jre</version>
+            </dependency>
+
             <!-- spring版本控制-->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
